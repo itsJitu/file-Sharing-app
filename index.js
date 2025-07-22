@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json()); // middleware
 app.use(express.urlencoded());
 
-
+// module routes
 app.use(fileRoutes);
 
 app.listen(8080, () => console.log('server is up & running at port 8080'))
